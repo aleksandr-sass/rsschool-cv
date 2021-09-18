@@ -1,26 +1,26 @@
 # CV
 ## Name
-*ALIAKSANDR SAS*
+__*ALIAKSANDR SAS*__
 ## Contacts
 
-* Email: *a.sass@tut.by*
-* Skype: *live:.cid.caa06d5130796232*
-* Mobile: *+375 (29) 823 79 19*
-* Discord: *aleksadr-sass#4199*
+* __Email:__ *a.sass@tut.by*
+* __Skype:__ *live:.cid.caa06d5130796232*
+* __Mobile:__ *+375 (29) 823 79 19*
+* __Discord:__ *aleksadr-sass#4199*
 
 ## About myself
 
 *Mogilev (Belarus). PreJunior FrontEnd Developer. I have no IT experience, but I can fast learn new technologies.*
 
 ## Technical skills
-*Git, MySQL, HTML, CSS, JavaScript, Visual Studio Code*
+__*Git, MySQL, HTML, CSS, JavaScript, Visual Studio Code*__
 
 ## Code samples
-[Multiples of 3 or 5](https://www.codewars.com/kata/multiples-of-3-or-5)
+__[Multiples of 3 or 5](https://www.codewars.com/kata/multiples-of-3-or-5)__
 
 If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
 
-The task was to write a function that returns the sum of all the multiples of 3 or 5 below the number passed in. Additionally, if the number is negative, return 0 (for languages that do have them).
+The task was __*to write a function that returns the sum of all the multiples of 3 or 5*__ below the number passed in. Additionally, if the number is negative, return 0 (for languages that do have them).
 
 ```
 function solution(number){
@@ -31,11 +31,11 @@ function solution(number){
 }
 ```
 ## Education
-* BNTU, Powerengineering faculty, Electrical networks (2010-2015, Minsk)
-* BRU, Institute of Advanced Studies, Software Engineer (2018-2019, Mogilev)
+* __BNTU__, Powerengineering faculty, Electrical networks (2010-2015, Minsk)
+* __BRU__, Institute of Advanced Studies, Software Engineer (2018-2019, Mogilev)
 * Courses:
-    * Software Development (12.2020-02.2021, [Itransition](https://itransition.by/training-dev), Online)
-    * Node.js Development (05.2021-07.2021, [RSSchool](https://rs.school/nodejs/), Online)
+    * __Software Development__ (12.2020-02.2021, [Itransition](https://itransition.by/training-dev), Online)
+    * __Node.js Development__ (05.2021-07.2021, [RSSchool](https://rs.school/nodejs/), Online)
 
 ## English skills
-*B1*
+__*B1*__
