@@ -1,19 +1,19 @@
 # CV
 ## Name
-ALIAKSANDR SAS
+*ALIAKSANDR SAS*
 ## Contacts
 
-* Email: a.sass@tut.by
-* Skype: live:.cid.caa06d5130796232
-* Mobile: +375 (29) 823 79 19
-* Discord: aleksadr-sass#4199
+* Email: *a.sass@tut.by*
+* Skype: *live:.cid.caa06d5130796232*
+* Mobile: *+375 (29) 823 79 19*
+* Discord: *aleksadr-sass#4199*
 
 ## About myself
 
-Mogilev (Belarus). PreJunior FrontEnd Developer. I have no IT experience, but I can fast learn new technologies.
+*Mogilev (Belarus). PreJunior FrontEnd Developer. I have no IT experience, but I can fast learn new technologies.*
 
 ## Technical skills
-Git, MySQL, HTML, CSS, JavaScript, Visual Studio Code
+*Git, MySQL, HTML, CSS, JavaScript, Visual Studio Code*
 
 ## Code samples
 [Multiples of 3 or 5](https://www.codewars.com/kata/multiples-of-3-or-5)
@@ -38,4 +38,4 @@ function solution(number){
     * Node.js Development (05.2021-07.2021, [RSSchool](https://rs.school/nodejs/), Online)
 
 ## English skills
-B1
+*B1*
