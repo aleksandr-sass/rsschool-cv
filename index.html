@@ -1,4 +1,4 @@
-<DOCTYPE html>
+<!DOCTYPE html>
     <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -9,7 +9,7 @@
     <body>
         <h1>CV</h1>
         <h2>Aliaksandr Sas</h2>
-        <img src="./images/my.jpg" alt="Aliaksandr Sas" width="500px" height="500px">
+        <img src="./images/my.jpg" alt="Aliaksandr Sas" width="500" height="500">
         <h2>Contacts</h2>
             <ul>
                 <li>Email: a.sass@tut.by</li>
@@ -29,7 +29,7 @@
         <pre>
             <code>
                 function solution(number){
-                    if(number<=0) return 0;
+                    if(number&lt;=0) return 0;
                     let n = (a) =>Math.floor((number-1)/a);
                     let sum = (b, c) =>(1+b)*b/2*c;    
                     return sum(n(3), 3)+sum(n(5), 5)-sum(n(15), 15);    
