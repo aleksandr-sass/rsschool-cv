@@ -38,3 +38,8 @@ li {
 .bold {
     font-weight: bold;
 }
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
