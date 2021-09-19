@@ -11,6 +11,11 @@
     font-family: monospace;
 }
 
+#avatar {
+    float: right;
+    margin: 0px 30px 30px 30px;
+}
+
 pre {
     margin: 0px;
 }
