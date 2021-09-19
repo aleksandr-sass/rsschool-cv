@@ -7,6 +7,45 @@
         <title>CV: Aliaksandr Sas</title>
     </head>
     <body>
-        
+        <h1>CV</h1>
+        <h2>Aliaksandr Sas</h2>
+        <h2>Contacts</h2>
+            <ul>
+                <li>Email: a.sass@tut.by</li>
+                <li>Skype: live:.cid.caa06d5130796232</li>
+                <li>Mobile: +375 (29) 823 79 19</li>
+                <li>Discord: aleksandr-sass#4199</li>
+            </ul>
+
+        <h2>About myself</h2>
+        <p>Mogilev (Belarus). PreJunior FrontEnd Developer. I have no IT experience, but I can fast learn new technologies.</p>
+        <h2>Technical skills</h2>
+        <p>Git, MySQL, HTML, CSS, JavaScript, Visual Studio Code</p>
+        <h2>Code samples</h2>
+        <p>Multiples of 3 or 5</p>
+        <p>If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.</p>
+        <p>The task was to write a function that returns the sum of all the multiples of 3 or 5 below the number passed in. Additionally, if the number is negative, return 0 (for languages that do have them).</p>
+        <pre>
+            <code>
+                function solution(number){
+                    if(number<=0) return 0;
+                    let n = (a) =>Math.floor((number-1)/a);
+                    let sum = (b, c) =>(1+b)*b/2*c;    
+                    return sum(n(3), 3)+sum(n(5), 5)-sum(n(15), 15);    
+                }
+            </code>
+        </pre>
+        <h2>Education</h2>
+            <ul>
+                <li>BNTU, Power engineering faculty, Electrical networks (2010-2015, Minsk)</li>
+                <li>BRU, Institute of Advanced Studies, Software Engineer (2018-2019, Mogilev)</li>
+                <li>Online Courses:
+                    <ul>
+                        <li>Software Development (12.2020-02.2021, Itransition)</li>
+                        <li>Node.js Development (05.2021-07.2021, RSSchool)</li>
+                    </ul>
+                </li>
+            </ul>
+        <h2>English skills: B1</h2>
     </body>
     </html>
