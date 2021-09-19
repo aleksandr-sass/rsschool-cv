@@ -26,3 +26,7 @@ pre {
 td {
     vertical-align: top;
 }
+
+li {
+    font-style: italic;
+}
