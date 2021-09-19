@@ -3,6 +3,9 @@
     font-family: Arial, "Segoe UI", Verdana, sans-serif;
 }
 
+#name {
+    margin: 0px 0px 0.67em 0px;
+}
 #code {
     background-color:#ddd6d6;
     border: none;
@@ -12,10 +15,14 @@
 }
 
 #avatar {
-    float: right;
-    margin: 0px 30px 30px 30px;
+   
+    margin: 0px 30px;
 }
 
 pre {
     margin: 0px;
+}
+
+td {
+    vertical-align: top;
 }
