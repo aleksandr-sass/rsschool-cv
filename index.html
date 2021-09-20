@@ -6,6 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./styles/style.css">
         <title>CV: Aliaksandr Sas</title>
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/default.min.css">
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
     </head>
     <body>
         <div id="container">
@@ -30,7 +33,14 @@
                                 <p>but I can fast learn new technologies.</p>
                             </div>
                             <h2>Technical skills</h2>
-                            <p class="bold italic">Git, MySQL, HTML, CSS, JavaScript, Visual Studio Code</p>
+                            <ul class="bold">
+                                <li>Git</li>
+                                <li>MySQL</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>Visual Studio Code</li>
+                            </ul>
                         </td>
                         <td>
                             <img src="./images/my.jpg" alt="Aliaksandr Sas" width="500" height="500" id="avatar">
@@ -43,14 +53,14 @@
                 <p><a href="https://www.codewars.com/kata/multiples-of-3-or-5" target="_blank">Multiples of 3 or 5</a></p>
                 <p>If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.</p>
                 <p>The task was to <span class="bold">write a function that returns the sum of all the multiples of 3 or 5 </span>below the number passed in. Additionally, if the number is negative, return 0 (for languages that do have them).</p>
-                <div id="code">
-                    <pre><code>function solution(number){
+                
+                    <pre><code class="language-javascript">function solution(number){
     if(number&lt;=0) return 0;
     let n = (a) =>Math.floor((number-1)/a);
     let sum = (b, c) =>(1+b)*b/2*c;    
     return sum(n(3), 3)+sum(n(5), 5)-sum(n(15), 15);    
 }</code></pre>
-                </div>
+                
                 <h2>Education</h2>
                 <ul>
                     <li><span class="bold">BNTU</span>, Power engineering faculty, Electrical networks (2010-2015, Minsk)</li>
@@ -71,5 +81,6 @@
             <a href="https://rs.school/js/" target="_blank"><img alt="rsschool logo" src="./images/rs_school_js.svg" height="100"></a>
         </footer>
         </div>
+    <script src="./js/selfCheck.js"></script>
     </body>
     </html>
