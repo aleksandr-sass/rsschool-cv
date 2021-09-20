@@ -6,6 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./styles/style.css">
         <title>CV: Aliaksandr Sas</title>
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/default.min.css">
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
     </head>
     <body>
         <div id="container">
@@ -51,7 +54,7 @@
                 <p>If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.</p>
                 <p>The task was to <span class="bold">write a function that returns the sum of all the multiples of 3 or 5 </span>below the number passed in. Additionally, if the number is negative, return 0 (for languages that do have them).</p>
                 <div id="code">
-                    <pre><code>function solution(number){
+                    <pre><code class="language-javascript">function solution(number){
     if(number&lt;=0) return 0;
     let n = (a) =>Math.floor((number-1)/a);
     let sum = (b, c) =>(1+b)*b/2*c;    
