@@ -53,14 +53,14 @@
                 <p><a href="https://www.codewars.com/kata/multiples-of-3-or-5" target="_blank">Multiples of 3 or 5</a></p>
                 <p>If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.</p>
                 <p>The task was to <span class="bold">write a function that returns the sum of all the multiples of 3 or 5 </span>below the number passed in. Additionally, if the number is negative, return 0 (for languages that do have them).</p>
-                <div id="code">
+                
                     <pre><code class="language-javascript">function solution(number){
     if(number&lt;=0) return 0;
     let n = (a) =>Math.floor((number-1)/a);
     let sum = (b, c) =>(1+b)*b/2*c;    
     return sum(n(3), 3)+sum(n(5), 5)-sum(n(15), 15);    
 }</code></pre>
-                </div>
+                
                 <h2>Education</h2>
                 <ul>
                     <li><span class="bold">BNTU</span>, Power engineering faculty, Electrical networks (2010-2015, Minsk)</li>
